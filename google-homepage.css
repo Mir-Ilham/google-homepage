@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --gray: #e4e4e4;
+}
+
+body, html {
+    height: 100%;
+    font-size: small;
+    font-family: arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav div, li {
+    display: inline-block;
+    float: right;
+    margin: 8px 10px;
+    font-size: medium;
+}
+
+.myAccount {
+    height: 32px;
+    width: 32px;
+    border: 2px solid rgba(26, 48, 255, 0.7);
+    border-radius: 50%;
+    background-image: url(/Icons/profile-icon-images-27.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.googleApps {
+    height: 26px;
+    width: 26px;
+    background-image: url(/Icons/grid-view-icon-2.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+    padding: 2px 3px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    height: 92px;
+    width: 272px;
+    position: relative;
+    left: 39%;
+}
+
+.main {
+    display: inline-block;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+[type="search"] {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+[type="search"]:focus {
+    background-color:#9bb0dd;
+    outline: none;
+}
+
+[type="submit"] {
+    margin: 5px;
+    padding: 5px 4px;
+    background-color: #cfcfcf;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.inputButtons, p {
+    text-align: center;
+}
+
+.location {
+    background-color: var(--gray);
+    border-top: 0.5px solid #c7c6c6;
+    padding: 20px 15px;
+}
+
+span {
+    font-size: medium;
+    color: #7c7c7c;
+}
+
+footer {
+    background-color: var(--gray);
+    overflow: hidden;
+    border-top: 0.5px solid #c7c6c6;
+    padding: 13px 10px;
+}
+
+.left-float-footer li{
+    float: left;
+}
+
+.right-float-footer li{
+    float: right;
+}
