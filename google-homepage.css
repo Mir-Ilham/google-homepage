@@ -30,7 +30,7 @@ nav div, li {
     width: 32px;
     border: 2px solid rgba(26, 48, 255, 0.7);
     border-radius: 50%;
-    background-image: url(/Icons/profile-icon-images-27.jpg);
+    background-image: url(../Icons/profile-icon-images-27.jpg);
     background-size: cover;
     cursor: pointer;
 }
@@ -38,7 +38,7 @@ nav div, li {
 .googleApps {
     height: 26px;
     width: 26px;
-    background-image: url(/Icons/grid-view-icon-2.jpg);
+    background-image: url(../Icons/grid-view-icon-2.jpg);
     background-size: cover;
     cursor: pointer;
 }
