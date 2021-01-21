@@ -65,8 +65,9 @@ a:hover {
 #logo {
     height: 92px;
     width: 272px;
-    position: relative;
-    left: 39%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main {
